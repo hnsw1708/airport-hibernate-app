@@ -1,0 +1,31 @@
+{
+	"folders": {},
+	"connections": {
+		"mysql8-186d3d998a5-114fa2c64d1b500a": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "M02_EX01",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"database": "M02_EX01",
+				"url": "jdbc:mysql://localhost:3306/M02_EX01",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
