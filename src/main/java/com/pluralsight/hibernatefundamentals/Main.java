@@ -4,9 +4,9 @@ import com.pluralsight.hibernatefundamentals.airport.Airport;
 import com.pluralsight.hibernatefundamentals.airport.Passenger;
 import com.pluralsight.hibernatefundamentals.airport.Ticket;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 
 public class Main {
 
