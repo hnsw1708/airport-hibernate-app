@@ -1,6 +1,6 @@
 package com.pluralsight.hibernatefundamentals.airport;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "TICKETS")
